@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/876d05b651.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LE TARTE</title>
+</head>
+<body>
+    <nav class="navbar-links">
+        <div class="logo">
+            <a href="index.html"><img src="img/la tarte renew.png" alt="LE TARTE"></a>
+        </div>
+        <ul class="menu">
+            <div class="menu-items">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="pasteles.html">Pasteles</a></li>
+                <li><a href="decoraciones.html">Decoraciones</a></li>
+                <li><a href="pedido.html">Realizar pedido</a></li>
+            </div>
+        </ul>   
+    </nav>
+    <section class="header">
+        <header class="headerStyle">
+            <h1>Decoralo a tu gusto</h1>
+            <br>
+            <h2>Nuestra pastelería se especializa en personalizar el pastel a tu antojo.</h2>
+        </header>
+    </section>
+    <div class="box-form">
+        <div class="form-cake">
+            <form action="#">
+                <label for="fname">Nombre</label>
+                <input type="text" id="fname" name="first name" placeholder="Nombre">
+                
+                <label for="lname1">Apellido paterno</label>
+                <input type="text" id="lname1" name="last name1" placeholder="Apellido paterno">
+
+                <label for="lname2">Apellido materno</label>
+                <input type="text" id="lname2" name="last name2" placeholder="Apellido materno">
+
+                <label for="number">Número telefónico</label>
+                <input type="text" id="number" name="phone-number" placeholder="Numero telefónico">
+
+                <label for="mail">Correo electrónico</label>
+                <input type="text" id="mail" name="mail" placeholder="Correo electronico">
+
+                <h2>Selecciona tu sabor o sabores de preferencia</h2>
+
+                <label for="flavor-cake"></label>
+                <div class="column-chbox">
+                    <input type="checkbox" id="flavor-cake" value="vainilla"> Vainilla
+                    <input type="checkbox" id="flavor-cake" value="chocolate"> Chocolate
+                    <input type="checkbox" id="flavor-cake" value="frojos"> Frutos rojos
+                </div>
+                <br>
+                <div class="column-chbox">
+                    <input type="checkbox" id="flavor-cake" value="platano"> Cupcakes de platano
+                    <input type="checkbox" id="flavor-cake" value="nuez"> Pastel de nuez
+                    <input type="checkbox" id="flavor-cake" value="esp-romanticake"> Especial romanticake
+                </div>
+                <br>
+                <div class="column-chbox">
+                    <input type="checkbox" id="flavor-cake" value="moka"> Moka
+                    <input type="checkbox" id="flavor-cake" value="cheescake"> Cheescake
+                    <input type="checkbox" id="flavor-cake" value="dolce-deli"> Dolce Delizia
+                </div>
+                
+                <br>
+                <h2>Selecciona tu decoración o puedes combinar a tu estilo para una mejor presentación</h2>
+
+                <label for="style-cake"></label>
+                <input type="checkbox" id="style-cake" value="gurmet"> Decorado gurmet
+                <input type="checkbox" id="style-cake" value="sencillo"> Decorado sencillo
+                <input type="checkbox" id="style-cake" value="fiesta"> Decorado para fiesta
+                <br>
+                <br>
+                <h2>¿Deseas algo en específico o algún detalle especial?</h2>
+                <h3>¡Déjanos una descripción general de como imaginas tu pastel!</h3>
+                <br>
+                <label for="description-cake"></label>
+                <textarea type="text" id="description-cake" name="description" placeholder="Descripción"></textarea>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+    
+    <div>
+        <div class="descriptionTxt">
+            <p>¡No te quedes sin el tuyo!</p>
+        </div>
+    </div>
+    <br>
+    <footer class="footer">
+        <p>Le tarte &copy; 2022</p>
+    </footer>
+</body>
+</html>

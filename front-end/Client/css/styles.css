@@ -1,0 +1,167 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+.navbar-links{
+    top: 0%;
+    z-index: 4;
+    width: 100%;
+    overflow:hidden;
+    position:fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #181818;
+    color: #fff;
+}
+
+.navbar-links a{
+    float: left;
+}
+
+.logo img{
+    width: 80px;
+    height: 80px;
+    margin-left: 15px;
+}
+
+.menu a{
+    color: #fff;
+}
+
+.menu-items{
+    display: flex;
+    gap: 1em;
+    font-size: 20px;
+}
+
+.header{
+    margin: 130px 0px 50px 0px;
+    align-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.headerStyle h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.header h2{
+    font-size: 20px;
+    text-align: center;
+}
+
+.headerStyle h3{
+    text-align: center;
+}
+
+.description{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #C3D898;
+    gap: 10px;
+}
+
+.description p{
+    text-align: center;
+    align-content: center;
+    margin-top: 60px;
+    margin-right: 3rem;
+}
+.descriptionImg img{
+    margin-left: 2rem;
+    border-radius: 15%;
+    width: 200px;
+    height: 180px;
+}
+
+.cards{
+    align-content: center;
+    text-align: center;
+    margin: 4rem;
+    display: flex;
+    gap: 25px;
+}
+
+.cards img{
+    border-radius: 15px;
+}
+
+.cards img:hover{
+    opacity: 0.6;
+}
+
+.text-card{
+    margin-top: 10px;
+}
+
+.footer{
+    align-content: center;
+    text-align:  center;
+    margin: 2em;
+}
+
+.descriptionTxt{
+    align-content: center;
+    text-align: center;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.menu-cake{
+    display: grid;
+}
+
+.cards-cake{
+    display: flex;
+    align-content: center;
+    text-align: center;
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: rgb(106, 106, 252);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+.column-chbox{
+    display: flex;
+}
+
+.form-cake{
+    border-radius: 20px;
+    align-content: center;
+    text-align: left;
+    margin: 0px 65px 0px 65px;
+}
+
+.det-txt{
+    margin-top: 70px;
+}
+
