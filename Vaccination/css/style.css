@@ -1,0 +1,278 @@
+*{
+    font-family: 'Shippori Antique B1', sans-serif;
+
+}
+
+h3{
+    margin-top: 15px;
+    margin-left: 30px;
+    padding: 0%;
+}
+
+p{
+    margin-top: 25px;
+    padding: 0%;
+    margin-left: 55px;
+}
+
+.navbar{
+    opacity: 0.92;
+    padding: 25px;
+}
+.navbar li{
+    gap: 25px; 
+}
+
+.img-doc{
+    background-color: rgb(56, 56, 247);
+}
+
+.img-doc img{
+    margin-left: 10%;
+    width: 80%;
+}
+
+.text-img{
+    margin-top: 4%;
+}
+
+.text-img h1, b{
+    color:rgb(0, 0, 110);
+    padding-left: 25px;
+}
+
+.text-img p{
+    opacity: 0.9;
+    padding-left: 40px;
+    margin: 15px;
+}
+
+.icons{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 0%;
+    margin: 0% 0% 0% 55px;
+    gap: 5%;
+}
+
+.icons i{
+    color: rgb(196, 196, 74);
+    padding: 0%;
+    margin: 0%;
+}
+
+.icons p{
+    margin: 0%;
+    padding: 0%;
+}
+
+.data-title {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 0%;
+    margin: 5% 0% 0% 90px;
+}
+
+.data-selector{
+    margin:0% 0% 0% 15%;
+    text-align: justify;
+    padding: 0%;
+}
+
+.icons-selector{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 0%;
+    margin: 0px;
+    gap: 5%;
+}
+
+.icons-selector i{
+    padding: 0%;
+    margin: 0%;
+}
+
+.icons-selector h6{
+    margin: 0%;
+    padding: 0%;
+}
+
+.data-selector b{
+    color: rgb(30, 30, 116);
+}
+
+.template{
+    position: relative;
+}
+
+.under-text{
+    position: absolute;
+}
+
+.over-text{
+    position: absolute;
+    top: 80%;
+    width: 70%;
+    height: 68px;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.911);
+    padding-top: 10px;
+    border-radius: 5px;
+    margin: 0%;
+}
+
+.content{
+    height: 600px;
+    width: 100%;
+}
+
+.images{
+    width: 100%;
+    align-items:stretch;
+    align-content: center;
+    text-align:justify;
+    margin-bottom: 70px;
+}
+
+.images img{
+    width: 90%;
+    opacity: 0.2;
+    filter: grayscale();
+    object-fit: fill;
+}
+
+.description{
+    margin-top: 100px;
+}
+
+.description i{
+    color:rgb(27, 27, 138)
+}
+
+.info p{
+    margin: 0%;
+    margin-top: 30px;
+    font-size: 12px;
+    text-align: justify;
+    color: rgb(104, 103, 103);
+}
+
+.info{
+    margin-top: 15px;
+}
+
+.template-vaccine   {
+    position: relative;
+    margin-top: 80px;
+}
+
+.template-text p{
+    position: relative;
+    margin: 5% 0% 0% 35px;
+    color: rgb(133, 130, 130);
+}
+
+
+.template-img img{
+    position: relative;
+    width: 85%;
+    margin-top: 100px;
+    z-index: 2;
+}
+
+.background-img{
+    position: absolute;
+    padding: 0%;
+    bottom: 0px;
+    right: 5px;
+    background-color: rgb(56, 56, 247);
+    width: 1000px;
+    height: 400px;
+}
+
+.list-accordion{
+    z-index: 2;
+    margin-left: 22px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.list-accordion p{
+    margin: 0%;
+    font-size: 15px;
+}
+
+.list-accordion button{
+    color: rgb(13, 13, 143);
+}
+
+.list-accordion i{
+    color: rgb(56, 56, 247);
+}
+
+.background-img2{
+    position: absolute;
+    padding: 0%;
+    bottom: 0px;
+    background-color: rgb(56, 56, 247);
+    width: 115.7%;
+    height: 400px;
+}
+
+.template-img2 img{
+    position: relative;
+    width: 85%;
+    margin-top: 100px;
+    z-index: 2;
+}
+
+.info-btns{
+    margin-top: 150px;
+    color: rgb(56, 56, 247);
+}
+
+.info-btns p{
+    margin: 0% 0% 3% 0%;
+    font-size: 14px;
+}
+
+.info-btns h5{
+    margin: 0%;
+}
+
+.info-btns i{
+    background-color: rgb(243, 243, 243);
+}
+
+.info-btns a{
+    margin-top: 25px;
+    width: 150px;
+    color: rgb(56, 56, 247);
+}
+
+.btn:hover{
+    background-color: rgb(56, 56, 247);
+    color: white;
+}
+
+.card{
+    border: 15px;
+}
+
+.footer-style{
+    margin-top: 150px;
+    width: 100%;
+    padding-top: 60px;
+}
+
+.footer-style b{
+    color: rgb(56, 56, 247);
+}
+
+.footer-style p{
+    opacity: 0.8;
+}
