@@ -117,6 +117,9 @@ progress {
     .stadistic progress{
         width: 80%;
     }
+    .pokeName{
+        text-align: left;
+    }
 }
 
 .text1{
