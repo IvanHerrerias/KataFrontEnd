@@ -1,0 +1,140 @@
+body{
+    background: #e53935; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #e53935, #ff5452); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #e53935, #ff5452); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.bar img{
+    color: white;
+}
+
+.stadistic{
+    padding: 20px;
+    font-size: 15px;
+}
+.stadistic input{
+    font-size: 20px;
+    width: 40px;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.pokeInfo{
+    margin-top: 40px;
+}
+
+.pokeName{
+    align-content: center;
+    text-align: center;
+    
+}
+
+.pokeName input{
+    margin-top: 15px;
+    text-align: center;
+    border-radius: 10px;
+    border:none;
+    font-size: 20px;
+    color: black;
+}
+
+.types{
+    padding: 10px;
+}
+
+.types input{
+    width: 120px;
+    margin: 0%;
+
+}
+
+.pokeFind{
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    border-radius: 180px;
+    background-image: url(https://pngimg.com/uploads/pokeball/pokeball_PNG8.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size:contain
+    
+}
+
+.pokeFind button{
+    border: none;
+    color: #090909;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #ffffff;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #413f3f,
+             -6px -6px 12px #d6d5d5;
+}
+
+button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+                inset -4px -4px 12px #ffffff;
+   }
+
+progress {
+    -webkit-appearance: none;
+  }
+
+  progress::-webkit-progress-bar {
+    height: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    appearance: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+  }
+  progress::-webkit-progress-value {
+    background-color: rgb(73, 173, 73);
+  }
+
+  progress::-moz-progress-bar {
+    height: 20px;
+    box-sizing: border-box;
+    appearance: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+  }
+
+.stats{
+    align-content: center;
+    text-align: left;
+}
+
+@media (max-width: 800px) {
+    .stadistic{
+        font-size: 50px;
+    }
+}
+
+.text1{
+    background-color: rgb(161, 18, 18);
+    color: white;
+    border-radius: 100px 100px 0px 0px;
+}
+
+.text2{
+    background-color: white;
+    border-radius: 0px 0px 100px 100px;
+}
+
+.moves{
+    margin-top: 40px;
+}
+
+.lista{
+    border-radius: 15px;
+}
+
+footer{
+    background-color: transparent;
+}

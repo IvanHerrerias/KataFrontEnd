@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/pokeball.svg">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Pokedex</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-light text-white">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="img/pokeball.svg" alt="pokemon" class="img-fluid" width="30" height="24" class="d-inline-block align-text-top">
+                
+              </a>
+            </div>
+          </nav>
+
+          <div class="container pokeInfo">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-12 col-sm-12 pokeFind">
+                    <img src="img/pikachu.png" id="pokeImg" alt="" width="40%"><br>
+                    <input type="text" placeholder="Pikachu" id="pokeName" name="pokeName"><br>
+                    <button onclick="fetchPokemon()">Buscar Pókemon</button>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 pokeName">
+                    <h2 style="color: white;">Nombre de pokémon</h2>
+                    <input type="text" id="showPokeName" placeholder="" disabled = "disabled" style="font-size: 30px; color: white; background-color: transparent;">
+                    <br>
+                    <br>
+                    <div class="text1">
+                        <h2 class="types">Tipos</h2>
+                    </div>
+                    <div class="text2">
+                        <div class="row justify-content-center types">
+                            <div class="col-6">
+                                <input type="text" id="type1" disabled = "disabled">
+                            </div>
+                            <div class="col-6">
+                                <input type="text" id="type2" disabled = "disabled">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container stats">
+                <div class="row justify-content-center">
+                    <h2 style="color: white;">Estadísticas</h2>
+                        <div class="col-lg-4 col-md-12 col-sm-12 stadistic">
+                            <h4 style="color: white;">HP</h4>
+                            <input type="text" id="hpField" disabled="disabled" style="color: white;">
+                            <progress id="HP" max="255"></progress>
+                            <span></span>
+                        </div>
+            
+                        <div class="col-lg-4 col-md-12 col-sm-12 stadistic">
+                            <h4 style="color: white;">Attack</h4>
+                            <input type="text" id="attackField" disabled="disabled" style="color: white;">
+                            <progress id="Attack" max="255"></progress>
+                            <span></span>
+                        </div>
+            
+                        <div class="col-lg-4 col-md-12 col-sm-12 stadistic">
+                            <h4 style="color: white;">Defense</h4>
+                            <input type="text" id="defenseField" disabled="disabled" style="color: white;">
+                            <progress id="Defense" max="255"></progress>
+                            <span></span>
+                        </div>
+            
+                        <div class="col-lg-4 col-md-12 col-sm-12 stadistic">
+                            <h4 style="color: white;">Special Attack</h4>
+                            <input type="text" id="sAttackField" disabled="disabled" style="color: white;">
+                            <progress id="S-attack" max="255"></progress>
+                            <span></span>
+                        </div>
+            
+                        <div class="col-lg-4 col-md-12 col-sm-12 stadistic">
+                            <h4 style="color: white;">Special Defense</h4>
+                            <input type="text" id="sDefenseField" disabled="disabled" style="color: white;">
+                            <progress id="S-defense" max="255"></progress>
+                            <span></span>
+                        </div>
+            
+                        <div class="col-lg-4 col-md-12 col-sm-12 stadistic">
+                            <h4 style="color: white;">Speed</h4>
+                            <input type="text" id="speedField" disabled="disabled" style="color: white;">
+                            <progress id="Speed" max="255"></progress>
+                            <span></span>
+                        </div>
+                </div>
+            </div>
+          </div>
+          <div class="container moves">
+              <div>
+                    <h2 style="color: white;">Movimientos</h2>
+              </div>
+              <ul class="list-group list-group-flush text-center lista" id="moveList">
+                <li class="list-group-item">Movements</li>
+              </ul>
+            
+          </div>
+    </div>
+    <footer>
+        <script src="js/functions.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    </footer> 
+</body>
+</html>
