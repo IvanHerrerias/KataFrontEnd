@@ -114,6 +114,9 @@ progress {
     .stadistic{
         font-size: 50px;
     }
+    .stadistic progress{
+        width: 80%;
+    }
 }
 
 .text1{
